@@ -486,6 +486,120 @@ a.sh-telephone-message-button {
   padding: 9.6rem 6.2rem;
   position: relative;
 }
+#accelerate.sh-section-2-1 {
+  /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
+  background-color: #020C30;
+  padding: 9.6rem 6.2rem;
+  position: relative;
+  height: 550px;
+}
+
+#accelerate.sh-section-2-1 .sh-section-title {
+  font-size: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#accelerate.sh-section-2-1 .sh-section-subtitle {
+  font-size: 29px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 16%;
+}
+
+#accelerate.sh-section-2-1 .circles {
+  display: flex;
+  justify-content: space-around;
+  margin: 4.5% 20% 0;
+}
+
+#accelerate.sh-section-2-2 {
+  /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
+  background-color: #FFFFFF;
+  padding: 6.6rem 6.2rem;
+  position: relative;
+  height: 200px;
+}
+
+#accelerate.sh-section-2-2 .sh-section-title {
+  font-size: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+#get-started.sh-section-4-1 {
+  /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
+  background: linear-gradient(45deg, #F4A325 10%, #E96100 100%);
+  padding: 12.6rem 6.2rem;
+  position: relative;
+  height: 550px;
+}
+
+#get-started.sh-section-4-1 .sh-section-title {
+  font-size: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#get-started.sh-section-4-1 .getStartedBtn {
+  padding: 10px 24px;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  background-color: #181B3B;
+  margin: 4% auto 0;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#get-started.sh-section-4-1 .chartIcon {
+  position: absolute;
+  top: 72px;
+  width: 100px;
+  transform: rotate(-19deg);
+}
+
+#get-started.sh-section-4-1 .sh-icon {
+  position: absolute;
+  bottom: 72px;
+  width: 81px;
+  right: 186px;
+  z-index: 2;
+}
+
+#get-started.sh-section-4-1 .sh-paper {
+  position: absolute;
+  bottom: 51px;
+  width: 102px;
+  right: 178px;
+  z-index: 1;
+}
+
+#get-started.sh-section-4-1 .sh-white-circle {
+  position: absolute;
+  bottom: 51px;
+  width: 102px;
+  right: 147px;
+  z-index: 1;
+}
+
+#accelerate.sh-section-2 {
+  /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
+  background-color: #FFFFFF;
+  padding: 9.6rem 6.2rem;
+  position: relative;
+}
 
 #accelerate.sh-section-2 .sh-section-title {
   color: black;
@@ -1189,6 +1303,30 @@ a.sh-telephone-message-button {
   height: auto;
   width: 100%;
 }
+#show-room .show-room-body .show-room-section .show-room-section-image-container .white-frames {
+  position: relative;
+  display: block;
+  height: auto;
+  bottom: 356px;
+  left: 23%;
+}
+
+#show-room .show-room-body .show-room-section .show-room-section-image-container .click-here {
+  position: relative;
+  display: block;
+  height: auto;
+  bottom: 327px;
+  left: 33%;
+}
+
+#show-room .show-room-body .show-room-section .show-room-section-image-container .cursor-pointer {
+  position: relative;
+  display: block;
+  height: auto;
+  bottom: 347px;
+  left: 64%;
+}
+
 
 #show-room .show-room-body .show-room-section .show-room-section-text-container {
   height: -webkit-max-content;
@@ -1236,6 +1374,11 @@ a.sh-telephone-message-button {
   background-color: #e97179;
   color: #ffffff;
   cursor: pointer;
+}
+
+.active .singleBtn {
+  background-color: #e97179;
+  border: 2px solid #e97179;
 }
 
 #show-room .show-room-body .show-room-section .show-room-payroll-carousel-wrapper {
