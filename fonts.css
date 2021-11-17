@@ -519,8 +519,8 @@ a.sh-telephone-message-button {
 
 #simplify.sh-section-3 .sh-sub-section {
   position: relative;
-  padding-left: 9%;
-  padding-right: 9%;
+  /* padding-left: 9%;
+  padding-right: 9%; */
 }
 
 #simplify.sh-section-3 .sh-sub-section .sh-sub-section-title {
@@ -831,21 +831,51 @@ a.sh-telephone-message-button {
   }
   #simplify.sh-section-3 .sh-sub-section.sh-simplify-operations-section {
     display: -webkit-box;
-    display: -ms-flexbox;
+     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding-left: 0;
+            justify-content: center;
+    /*padding-left: 0;
     padding-right: 0;
-    margin-right: -6.3vw;
+    margin-right: -6.3vw; */
   }
   #simplify.sh-section-3 .sh-sub-section.sh-simplify-operations-section .sh-information-panel .sh-sub-section-title,
   #simplify.sh-section-3 .sh-sub-section.sh-simplify-operations-section .sh-information-panel .sh-sub-section-description {
-    text-align: left;
+    /* text-align: left; */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
   }
+
+  /* ---------------------------- */
+  .buttons_3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 20% 0;
+  }
+
+  .singleBtn {
+    font: inter;
+    line-height: 0px;
+    background-color: #f4a3ae;
+    /* border-color: white;
+    border-width: 2px; */
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    display: inline-block;
+    padding: 17px 25px 17px;
+  }
+
+
+
+
   #simplify.sh-section-3 .sh-sub-section.sh-simplify-operations-section .sh-information-panel {
-    margin: auto 11vw auto 0;
+    /* margin: auto 11vw auto 0; */
+    margin: 0 35px 40px;
   }
   #simplify.sh-section-3 .sh-sub-section.sh-simplify-operations-section .sh-image-panel {
     display: block;
@@ -1095,6 +1125,12 @@ a.sh-telephone-message-button {
   width: 100%;
 }
 
+/* -------------- */
+.show-room-selector {
+  list-style: none;
+}
+/* ------------ */
+
 #show-room .show-room-head .show-room-selector-container .show-room-selector {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1110,6 +1146,7 @@ a.sh-telephone-message-button {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 14px;
+  
 }
 
 #show-room .show-room-head .show-room-selector-container .show-room-selector.active, #show-room .show-room-head .show-room-selector-container .show-room-selector:focus, #show-room .show-room-head .show-room-selector-container .show-room-selector:hover {
@@ -1128,8 +1165,9 @@ a.sh-telephone-message-button {
 }
 
 #show-room .show-room-body {
+  padding-bottom: 50px;
   background-color: #f4a3ae;
-  padding: 4vh 6.3vw 11.37vh 9.21vw;
+  /* padding: 4vh 6.3vw 11.37vh 9.21vw; */
 }
 
 #show-room .show-room-body .show-room-section {
@@ -1303,7 +1341,7 @@ a.sh-telephone-message-button {
     max-height: 40px;
   }
   #show-room .show-room-body {
-    padding: 14.4vh 6.3vw 19.9vh 9.21vw;
+    /* padding: 14.4vh 6.3vw 19.9vh 9.21vw; */
   }
   #show-room .show-room-body .show-room-section.active {
     -webkit-column-gap: 6.4%;
