@@ -495,7 +495,7 @@
 				<a class="close">
 					<img src="img/close-button.png" alt="Close" />
 				</a>
-				<video src="video/video.mp4" controls="play"></video>
+				<!-- <video src="video/video.mp4" controls="play"></video> -->
 			</div>
 		</div>
 
