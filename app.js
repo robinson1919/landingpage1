@@ -204,91 +204,91 @@
  * source: https://medium.com/@marcusmichaels/how-to-build-a-carousel-from-scratch-in-vanilla-js-9a096d3b98c9
  */
 
-!(function (d) {
-	const container = d.querySelector(".show-room-payroll-carousel-wrapper");
-	var itemClassName = "sh-carousel__content",
-		items = container.getElementsByClassName("sh-carousel__content"),
-		links = container.querySelectorAll(".sh-carousel-selector"),
-		indicators = container.querySelectorAll(".sh-carousel-indicator"),
-		moving = true;
+// !(function (d) {
+// 	const container = d.querySelector(".show-room-payroll-carousel-wrapper");
+// 	var itemClassName = "sh-carousel__content",
+// 		items = container.getElementsByClassName("sh-carousel__content"),
+// 		links = container.querySelectorAll(".sh-carousel-selector"),
+// 		indicators = container.querySelectorAll(".sh-carousel-indicator"),
+// 		moving = true;
 
-	// make it rain
-	initCarousel();
+// 	// make it rain
+// 	initCarousel();
 
-	// Set classes
-	function setInitialClasses() {
-		// Targets the previous, current, and next items
-		// This assumes there are at least three items.
-		// Modified to accomodate only two items.
-		items[0].classList.add("active");
-		items[1].classList.add("next");
-		items[1].classList.add("prev");
-	}
-	// Set event listeners
-	function setEventListeners() {
-		links.forEach((l) => {
-			l.addEventListener("click", moveCarouselTo);
-		});
-		indicators.forEach((i) => {
-			i.addEventListener("click", moveCarouselTo);
-		});
-	}
+// 	// Set classes
+// 	function setInitialClasses() {
+// 		// Targets the previous, current, and next items
+// 		// This assumes there are at least three items.
+// 		// Modified to accomodate only two items.
+// 		items[0].classList.add("active");
+// 		items[1].classList.add("next");
+// 		items[1].classList.add("prev");
+// 	}
+// 	// Set event listeners
+// 	function setEventListeners() {
+// 		links.forEach((l) => {
+// 			l.addEventListener("click", moveCarouselTo);
+// 		});
+// 		indicators.forEach((i) => {
+// 			i.addEventListener("click", moveCarouselTo);
+// 		});
+// 	}
 
-	function disableInteraction() {
-		// Set 'moving' to true for the same duration as our transition.
-		// (0.5s = 500ms)
+// 	function disableInteraction() {
+// 		// Set 'moving' to true for the same duration as our transition.
+// 		// (0.5s = 500ms)
 
-		moving = true;
-		// setTimeout runs its function once after the given time
-		setTimeout(function () {
-			moving = false;
-		}, 500);
-	}
+// 		moving = true;
+// 		// setTimeout runs its function once after the given time
+// 		setTimeout(function () {
+// 			moving = false;
+// 		}, 500);
+// 	}
 
-	function moveCarouselTo(newSlide) {
-		if (typeof newSlide === "object") {
-			newSlide.preventDefault();
-			newSlide = +newSlide.target.dataset.slide;
-		}
+// 	function moveCarouselTo(newSlide) {
+// 		if (typeof newSlide === "object") {
+// 			newSlide.preventDefault();
+// 			newSlide = +newSlide.target.dataset.slide;
+// 		}
 
-		// Check if carousel is moving, if not, allow interaction
-		if (!moving) {
-			// temporarily disable interactivity
-			disableInteraction();
-			// Update the "old" adjacent slides with "new" ones
-			if (newSlide == 0) {
-				items[0].className = itemClassName + " active";
-				items[1].className = itemClassName + " prev next";
-			} else {
-				items[0].className = itemClassName + " prev next";
-				items[1].className = itemClassName + " active";
-			}
+// 		// Check if carousel is moving, if not, allow interaction
+// 		if (!moving) {
+// 			// temporarily disable interactivity
+// 			disableInteraction();
+// 			// Update the "old" adjacent slides with "new" ones
+// 			if (newSlide == 0) {
+// 				items[0].className = itemClassName + " active";
+// 				items[1].className = itemClassName + " prev next";
+// 			} else {
+// 				items[0].className = itemClassName + " prev next";
+// 				items[1].className = itemClassName + " active";
+// 			}
 
-			links.forEach((l, index) => {
-				if (newSlide != index) {
-					if (l.classList.contains("active")) l.classList.remove("active");
-				} else {
-					if (!l.classList.contains("active")) l.classList.add("active");
-				}
-			});
+// 			links.forEach((l, index) => {
+// 				if (newSlide != index) {
+// 					if (l.classList.contains("active")) l.classList.remove("active");
+// 				} else {
+// 					if (!l.classList.contains("active")) l.classList.add("active");
+// 				}
+// 			});
 
-			indicators.forEach((i, index) => {
-				if (newSlide != index) {
-					if (i.classList.contains("active")) i.classList.remove("active");
-				} else {
-					if (!i.classList.contains("active")) i.classList.add("active");
-				}
-			});
-		}
-	}
+// 			indicators.forEach((i, index) => {
+// 				if (newSlide != index) {
+// 					if (i.classList.contains("active")) i.classList.remove("active");
+// 				} else {
+// 					if (!i.classList.contains("active")) i.classList.add("active");
+// 				}
+// 			});
+// 		}
+// 	}
 
-	function initCarousel() {
-		setInitialClasses();
-		setEventListeners();
-		// Set moving to false so that the carousel becomes interactive
-		moving = false;
-	}
-})(document);
+// 	function initCarousel() {
+// 		setInitialClasses();
+// 		setEventListeners();
+// 		// Set moving to false so that the carousel becomes interactive
+// 		moving = false;
+// 	}
+// })(document);
 
 /**
  * Events for demo video

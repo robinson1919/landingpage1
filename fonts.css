@@ -290,7 +290,23 @@ a.sh-telephone-message-button {
 
 /* ------------------------ */
 .main-logo {
-  height: 300px;
+  /* height: 300px; */
+}
+
+.sh-page-title p {
+  font-size: 19px;
+  color: white;
+}
+
+.sh-page-title .title {
+  font-size: 50px;
+  color: white;
+  line-height: 1;
+}
+.sh-page-title .sub-p {
+  font-size: 25px;
+  color: white;
+  line-height: 1;
 }
 
 @media (min-width: 992px) {
@@ -637,14 +653,14 @@ a.sh-telephone-message-button {
   padding-right: 9%; */
 }
 
-#simplify.sh-section-3 .sh-sub-section .sh-sub-section-title {
+/* #simplify.sh-section-3 .sh-sub-section .sh-sub-section-title {
   color: #3071e7;
   font-size: 3.6rem;
   font-weight: 700;
   line-height: 3.6rem;
   margin-bottom: 6px;
   text-align: center;
-}
+} */
 
 #simplify.sh-section-3 .sh-sub-section .sh-sub-section-title.sh-dark-red {
   color: #e97179;
