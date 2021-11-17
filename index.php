@@ -82,137 +82,68 @@
 		</section>
 
 		<section id="simplify" class="sh-section-3">
-			<div class="sh-sub-section sh-cell-dashboard-section">
-				<figure class="sh-cell-dashboard-icon-group">
-					<div class="sh-circle sh-orange-circle"></div>
-					<img class="sh-cell-dashboard" src="img/cell-dashboard.png" alt="Mobile Dashboard" />
-				</figure>
-			</div>
-
 			<div class="sh-sub-section sh-simplify-operations-section">
-				<!-- <div class="sh-information-panel">
-					<h2 class="sh-sub-section-title">Simplify your operations.</h2>
-					<p class="sh-sub-section-description">
-						All-in-one platform adjusted to your needs, keep everything running smoothly in just
-						one place.
-					</p>
-				</div> -->
-				<div class="sh-image-panel">
-					<figure class="sh-dashboard-screen-icon-group">
-						<img class="sh-dashboard-screen" src="img/table.svg" alt="Dashboard Screen" />
-						<div class="sh-circle sh-orange-circle"></div>
-					</figure>
+				<div class="sh-information-panel">
+					<h2 class="sh-sub-section-title">Innovative features that maximize your links and business.</h2>
+					<div class="buttons_3">
+						<li class="show-room-selector active">
+							<button data-index="0" class="sh-button singleBtn show-room-link">Multiple Domains</button>
+						</li>
+						<li class="show-room-selector">
+							<button data-index="1" class="sh-button singleBtn show-room-link">Real-Time Tracking</button>
+						</li>
+						<li class="show-room-selector">
+							<button data-index="2" class="sh-button singleBtn show-room-link">Workspaces</button>
+						</li>
+					</div>
 				</div>
 			</div>
-
-			<div class="flex-container">
-				<div class="sh-sub-section sh-desktop-dashboard-section">
-					<figure class="sh-desktop-dashboard-icon-group">
-						<div class="sh-circle sh-light-red-circle"></div>
-						<div class="sh-circle sh-light-red-circle"></div>
-						<img class="sh-desktop-dashboard" src="img/desktop-dashboard.png" alt="Desktop Dashboard" />
-					</figure>
-				</div>
-
-				<div class="sh-sub-section sh-grow-your-leads-section">
-					<h2 class="sh-sub-section-title">Grow your leads.</h2>
-					<p class="sh-sub-section-description">
-						Quickly turn prospects into clients and reach your goals faster with our CRM tool.
-					</p>
-				</div>
-			</div>
-
-			<div class="flex-container row-reverse">
-				<div class="sh-sub-section sh-stats-image-section">
-					<figure class="sh-grow-your-leads-icon-group">
-						<img class="sh-grow-your-leads-img" src="img/grow-your-leads.png" alt="Grow your leads" />
-						<img class="sh-sales-count-icon" src="icons/sales-count-icon.svg" alt="Sales Count Icon" />
-						<img class="sh-graph-icon" src="icons/graph-icon.svg" alt="Graph Icon" />
-						<img class="sh-money-icon" src="icons/money-icon.svg" alt="Money Icon" />
-					</figure>
-				</div>
-
-				<div class="sh-sub-section sh-save-time-section">
-					<h2 class="sh-sub-section-title">Save time, spend less.</h2>
-					<p class="sh-sub-section-description">
-						Automate your work and strengthen customer relationships while reducing costs.
-					</p>
-					<div class="sh-circle sh-blue-circle"></div>
-				</div>
-			</div>
-
-			<div class="flex-container">
-				<div class="sh-sub-section sh-partners-section">
-					<h2 class="sh-sub-section-title sh-dark-red">
-						Works with <br />
-						Sales-Hub
-					</h2>
-					<div class="sh-partners-image-container">
-						<div class="sh-partner-image sh-zapier">
-							<img class="sh-zapier-logo" src="icons/zapier-logo.svg" alt="Zapier" />
+			<div id="show-room" class="sh-section">
+				<div class="show-room-body">
+					<div class="show-room-section active" data-index="0">
+						<div class="show-room-section-image-container">
+							<img class="show-room-image" src="icons/computer-domains.svg" alt="Dashboard" />
 						</div>
-						<div class="sh-partner-image sh-intuit-quickbooks">
-							<img class="sh-intuit-quickbooks" src="icons/intuit-quickbooks-logo.svg"
-								alt="Intuit Quickbooks" />
+						<div class="show-room-section-text-container">
+							<h5 class="show-room-section-title" style="color: #D62D39; font-size: 42px;">Multiple Custom Domains</h5>
+							<p class="show-room-section-description">
+								Create, shorten and manage your own branded domains easily in one place.
+							</p>
+							<a href="#" class="sh-button sh-login-button sh-show-contact-form">
+								Schedule Your Demo
+							</a>
+						</div>
+						
+					</div>
+					<div class="show-room-section" data-index="1">
+						<div class="show-room-section-image-container">
+							<img class="show-room-image" src="img/table.svg" alt="Dashboard" />
+						</div>
+						<div class="show-room-section-text-container">
+							<h3 class="show-room-section-title">Dashboard</h3>
+							<h5 class="show-room-section-subtitle">
+								Designed to simplify your business operations.
+							</h5>
+							<p class="show-room-section-description">
+								Plan, track, and make decisions based on the real-time data Sales-Hub provides for
+								you.
+							</p>
+							<a href="#" class="sh-button sh-login-button sh-show-contact-form">
+								Schedule Your Demo
+							</a>
 						</div>
 					</div>
-				</div>
-
-				<div class="sh-sub-section sh-connect-with-partners-section">
-					<h2 class="sh-sub-section-title">Connect with our Sales-Hub Partners.</h2>
-					<p class="sh-sub-section-description">
-						Take your business to the next level, our Sales-Hub Partners will help you build a
-						full sales strategy.
-					</p>
-					<div class="sh-circle sh-orange-circle"></div>
-					<div class="sh-circle sh-blue-circle"></div>
-				</div>
-			</div>
-
-			<div class="flex-container row-reverse sh-margin-bottom">
-				<div class="sh-sub-section sh-market-your-business-img-section">
-					<img class="sh-market-your-business-img" src="icons/market-your-business.svg"
-						alt="Market Your Business" />
-				</div>
-				<div class="sh-sub-section sh-market-your-business-section">
-					<h2 class="sh-sub-section-title">Market your business.</h2>
-					<p class="sh-sub-section-description">
-						Reach the right people with effective messages.<br />
-						Grow traffic, boost sales, from one place.
-					</p>
-					<div class="sh-circle sh-light-red-circle"></div>
-				</div>
-			</div>
-
-			<div class="flex-container">
-				<div class="sh-sub-section sh-market-stats-section">
-					<div class="sh-mobile-report-image">
-						<img class="sh-market-stats-qtys-icon" src="img/market-stats-qtys-icon.png"
-							alt="Market Stats" />
-						<figure class="sh-market-stats-chart-group">
-							<img class="sh-market-stats-graph-icon" src="icons/graph-icon.svg"
-								alt="Market Stats Graph" />
-							<img class="sh-market-stats-pie-chart-icon" src="img/market-stats-pie-chart-icon.png"
-								alt="Market Stats Pie Chart" />
-						</figure>
-					</div>
-
-					<div class="sh-desktop-report-image">
-						<img class="sh-market-stats-report" src="icons/report.svg" alt="Report Icon" />
+					<div class="show-room-section" data-index="2">
+						<h1>2</h1>
 					</div>
 				</div>
-
-				<div class="sh-sub-section sh-visualize-insights-section">
-					<h2 class="sh-sub-section-title">Visualize your insights and take action.</h2>
-					<p class="sh-sub-section-description">
-						Turn your insights into smarter decisions.<br />
-						See what's working best and focus on what matters.
-					</p>
-				</div>
 			</div>
+			
 		</section>
 
-		<section id="show-room" class="sh-section">
+		
+
+		<section id="show-room" class="sh-section" style="display: none;">
 			<div class="show-room-head">
 				<ul class="show-room-selector-container">
 					<li class="show-room-selector active">
