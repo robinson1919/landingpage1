@@ -226,6 +226,13 @@ a.sh-telephone-message-button {
   left: calc(50% + 52px);
 }
 
+#brand.sh-section-1 .sh-main-icon-group .sh-blue-circle {
+  height: 69px;
+  position: absolute;
+  top: 106px;
+  left: calc(50% + 52px);
+}
+
 #brand.sh-section-1 .sh-main-icon-group .sh-dashboard-icon {
   display: none;
 }
@@ -243,6 +250,53 @@ a.sh-telephone-message-button {
   font-size: 3.6rem;
   line-height: 3.6rem;
   margin: 0 22% 13px 0;
+}
+
+@media (max-width: 992px) {
+  #brand.sh-section-1 .sh-section-title-group .sh-page-title {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #brand.sh-section-1 .sh-section-title-group {
+    /* margin-left: 8%; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+  }
+
+  #accelerate.sh-section-2 {
+
+  }
+
+  #simplify.sh-section-3 .sh-sub-section .sh-sub-section-title {
+    color: #FFFFFF;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+
+  #simplify.sh-section-3 .sh-sub-section .buttons_3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 0 0;
+  }
+
+  #accelerate.sh-section-2-1 img{
+    position: absolute;
+    right: -6%;
+    bottom: -7%!important;
+    z-index: 1;
+    width: 13.5vw;
+  }
 }
 
 #brand.sh-section-1 .sh-section-title-group .sh-page-subtitle {
@@ -404,6 +458,12 @@ a.sh-telephone-message-button {
     right: 9.5%;
     top: 27%;
   }
+  #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .sh-blue-circle {
+    left: unset;
+    height: 27.5%;
+    right: -7.5%;
+    top: 23.5%;
+  }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .sh-dashboard-icon {
     display: block;
     height: auto;
@@ -456,7 +516,7 @@ a.sh-telephone-message-button {
     left: -28px;
   }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group > .sh-circle {
-    bottom: -37%;
+    bottom: -43%;
     height: unset;
     max-width: 260px;
     position: absolute;
@@ -499,7 +559,7 @@ a.sh-telephone-message-button {
 #accelerate.sh-section-2 {
   /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
   background-color: #FFFFFF;
-  padding: 9.6rem 6.2rem;
+  padding: 9.6rem 12.2rem;
   position: relative;
 }
 #accelerate.sh-section-2-1 {
@@ -508,6 +568,14 @@ a.sh-telephone-message-button {
   padding: 9.6rem 6.2rem;
   position: relative;
   height: 550px;
+}
+
+#accelerate.sh-section-2-1 img{
+  position: absolute;
+  right: -6%;
+  bottom: -19%;
+  z-index: 1;
+  width: 13.5vw;
 }
 
 #accelerate.sh-section-2-1 .sh-section-title {
@@ -604,16 +672,16 @@ a.sh-telephone-message-button {
 
 #get-started.sh-section-4-1 .sh-white-circle {
   position: absolute;
-  bottom: 51px;
-  width: 102px;
-  right: 147px;
+  bottom: 29px;
+  width: 162px;
+  right: 145px;
   z-index: 1;
 }
 
 #accelerate.sh-section-2 {
   /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
   background-color: #FFFFFF;
-  padding: 9.6rem 6.2rem;
+  padding: 9.6rem 14.2rem;
   position: relative;
 }
 
@@ -626,7 +694,7 @@ a.sh-telephone-message-button {
 
 @media (min-width: 992px) {
   #accelerate.sh-section-2 {
-    padding: 123px 0;
+    /* padding: 123px 0; */
   }
   #accelerate.sh-section-2 .sh-section-title {
     font-size: 56px;
@@ -1714,7 +1782,7 @@ a.sh-telephone-message-button {
 }
 
 #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-head.manager-price {
-  background-color: #3071e7;
+  background-color: #F4A325;
 }
 
 #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-head.enterprise-price {
@@ -1737,11 +1805,11 @@ a.sh-telephone-message-button {
 
 #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-body.manager-price .dollars,
 #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-body.manager-price .cents {
-  color: #3071e7;
+  color: #F4A325;
 }
 
 #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-body.manager-price .sh-login-button {
-  background-color: #3071e7;
+  background-color: #F4A325;
 }
 
 #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-body.manager-price .sh-login-button:focus, #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-body.manager-price .sh-login-button:hover, #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-body.manager-price .sh-login-button.active {
@@ -1971,14 +2039,14 @@ a.sh-telephone-message-button {
     color: #e97179;
   }
   #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .sh-price-card-head {
-    background-color: #3071e7;
+    background-color: #F4A325;
   }
   #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .dollars,
   #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .cents {
-    color: #3071e7;
+    color: #F4A325;
   }
   #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .sh-login-button {
-    background-color: #3071e7;
+    background-color: #F4A325;
   }
   #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .sh-login-button:focus, #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .sh-login-button:hover, #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .sh-login-button.active {
     background-color: #1956c3;
