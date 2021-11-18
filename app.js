@@ -6,7 +6,6 @@
  */
 
 	const closeBtn = document.querySelector('#contact-modal .sh-contact-container .close');
-	console.log(closeBtn)
 	closeBtn.addEventListener('click', closeAll)
 
 	function closeAll(){
@@ -302,47 +301,47 @@
  * Events for demo video
  */
 
-!(function (d) {
-	// Get the modal
-	const modal = d.getElementById("video-modal");
+// !(function (d) {
+// 	// Get the modal
+// 	const modal = d.getElementById("video-modal");
 
-	const video = d.querySelector("video");
+// 	const video = d.querySelector("video");
 
-	// Get the button that opens the modal
-	const btns = d.querySelectorAll(".sh-watch-demo");
+// 	// Get the button that opens the modal
+// 	const btns = d.querySelectorAll(".sh-watch-demo");
 
-	// Get the <span> element that closes the modal
-	const span = modal.getElementsByClassName("close")[0];
+// 	// Get the <span> element that closes the modal
+// 	const span = modal.getElementsByClassName("close")[0];
 
-	// When the user clicks on the button, open the modal
-	btns.forEach((btn) => {
-		btn.addEventListener("click", function (event) {
-			event.preventDefault();
-			modal.style.display = "block";
-			if (video) {
-				video.play();
-				if (video.requestFullscreen) video.requestFullscreen();
-				else if (video.webkitRequestFullscreen) video.webkitRequestFullscreen();
-				else if (video.msRequestFullScreen) video.msRequestFullScreen();
-			}
-		});
-	});
+// 	// When the user clicks on the button, open the modal
+// 	btns.forEach((btn) => {
+// 		btn.addEventListener("click", function (event) {
+// 			event.preventDefault();
+// 			modal.style.display = "block";
+// 			if (video) {
+// 				video.play();
+// 				if (video.requestFullscreen) video.requestFullscreen();
+// 				else if (video.webkitRequestFullscreen) video.webkitRequestFullscreen();
+// 				else if (video.msRequestFullScreen) video.msRequestFullScreen();
+// 			}
+// 		});
+// 	});
 
-	// When the user clicks on <span> (x), close the modal
-	span.addEventListener("click", function (event) {
-		event.preventDefault();
-		modal.style.display = "none";
-		if (video) video.pause();
-	});
+// 	// When the user clicks on <span> (x), close the modal
+// 	span.addEventListener("click", function (event) {
+// 		event.preventDefault();
+// 		modal.style.display = "none";
+// 		if (video) video.pause();
+// 	});
 
-	// When the user clicks anywhere outside of the modal, close it
-	window.addEventListener("click", function (event) {
-		if (event.target == modal) {
-			modal.style.display = "none";
-			if (video) video.pause();
-		}
-	});
-})(document);
+// 	// When the user clicks anywhere outside of the modal, close it
+// 	window.addEventListener("click", function (event) {
+// 		if (event.target == modal) {
+// 			modal.style.display = "none";
+// 			if (video) video.pause();
+// 		}
+// 	});
+// })(document);
 
 /**
  * Events for contact modal
