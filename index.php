@@ -11,16 +11,6 @@
 	<link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
 	<link rel="stylesheet" href="./fonts.css" />
 	<link rel="stylesheet" href="./styles.css" />
-	<script>
-		/**
-		 * Recaptcha
-		 */
-		var renderRecaptcha = function () {
-			grecaptcha.render("recaptcha-container", {
-				sitekey: "6Lf8HRIdAAAAAJ_kQNu6Qulu7e6hWHdzBQBoYBF7"
-			});
-		};
-	</script>
 </head>
 
 <body>
