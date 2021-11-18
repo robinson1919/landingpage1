@@ -5,6 +5,14 @@
  * source: https://medium.com/@marcusmichaels/how-to-build-a-carousel-from-scratch-in-vanilla-js-9a096d3b98c9
  */
 
+	const closeBtn = document.querySelector('#contact-modal .sh-contact-container .close');
+	console.log(closeBtn)
+	closeBtn.addEventListener('click', closeAll)
+
+	function closeAll(){
+		document.querySelector('#contact-modal').style.display = 'none'
+	}
+
  !(function (d) {
 	const container = d.querySelector(".sh-carousel-wrapper");
 	var itemClassName = "sh-price-card sh-carousel__photo",
@@ -368,13 +376,13 @@
 	// When the user clicks on <span> (x), close the modal
 	span.addEventListener("click", function (event) {
 		event.preventDefault();
-		close();
+		// close();
 	});
 
 	// When the user clicks anywhere outside of the modal, close it
 	window.addEventListener("click", function (event) {
 		if (event.target == modal) {
-			close();
+			// close();
 		}
 	});
 
@@ -432,13 +440,13 @@
 		this.value = value;
 	}
 
-	function close() {
-		grecaptcha.reset();
-		modal.style.display = "none";
-		d.getElementById("contact-name").value = "";
-		d.getElementById("contact-email").value = "";
-		d.getElementById("contact-phone-number").value = "";
-		contact_form.style.display = "block";
-		d.querySelector("#contact-modal .sh-contact-response").style.display = "none";
-	}
+	// function close() {
+	// 	grecaptcha.reset();
+	// 	modal.style.display = "none";
+	// 	d.getElementById("contact-name").value = "";
+	// 	d.getElementById("contact-email").value = "";
+	// 	d.getElementById("contact-phone-number").value = "";
+	// 	contact_form.style.display = "block";
+	// 	d.querySelector("#contact-modal .sh-contact-response").style.display = "none";
+	// }
 })(document);
