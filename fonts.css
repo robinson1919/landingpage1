@@ -2,7 +2,7 @@
 body,
 html {
   background-color: white;
-  font-family: "Roboto";
+  font-family: "Inter";
   font-size: 10px;
   margin: 0;
   overflow-x: hidden;
@@ -161,11 +161,11 @@ a.sh-telephone-message-button {
 }
 
 #brand.sh-section-1 {
-  /* background: linear-gradient(48.7deg, #181b3b 56.26%, #3071e7 112.87%); */
-  background-color:#020C30!important;
-  padding-bottom: 9.1rem;
-  padding-top: 3.3rem;
+  background-color: #020C30!important;
+  /* padding-bottom: 17%; */
+  padding-top: 4%;
   position: relative;
+  /* height: 100vh; */
 }
 
 #brand.sh-section-1 .sh-section-background {
@@ -303,6 +303,102 @@ a.sh-telephone-message-button {
   #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-carousel-wrapper .sh-carousel .sh-carousel__photo .sh-price-card-body .sh-price-card-price {
     margin-bottom: 3vh;
   }
+
+  #brand.sh-section-1 {
+    background-color: #020C30!important;
+    /* padding-bottom: 17%; */
+    /* padding-top: 4%; */
+    position: relative;
+    height: 100vh;
+    /* align-items: center; */
+    justify-content: center;
+    /* align-self: center; */
+    /* margin: 0 auto; */
+    display: flex;
+  }
+  #brand.sh-section-1 .sh-main-icon-group {
+    margin-bottom: 0;
+    padding-top: 0;
+    position: relative;
+  }
+
+  .main-logo {
+    margin: 24% 0 0% 0;
+  }
+
+  .sh-page-title p {
+    font-size: 19px;
+    color: white;
+    text-align: left;
+  }
+
+  .sh-page-title .title {
+    font-size: 50px;
+    color: white;
+    line-height: 1;
+    margin-top: 8%;
+  }
+
+  .sh-page-title .sub-p {
+    font-size: 25px;
+    color: white;
+    line-height: 1;
+    margin-bottom: 18%;
+  }
+
+  #show-room .show-room-body .show-room-section .show-room-section-image-container .white-frames {
+    position: absolute!important;
+    display: block;
+    height: 114px!important;
+    top: 30%!important;
+    left: 28%!important;
+  }
+
+  #show-room .show-room-body .show-room-section .show-room-section-image-container .click-here {
+    position: absolute!important;
+    display: block;
+    height: auto;
+    top: 42.5%!important;
+    left: 33%!important;
+  }
+
+  #show-room .show-room-body .show-room-section .show-room-section-image-container .cursor-pointer {
+    position: absolute!important;
+    display: block;
+    height: 6%!important;
+    bottom: 50%!important;
+    left: 62%!important;
+  }
+
+  #show-room .show-room-body .show-room-section .show-room-section-text-container {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .sh-top-navbar {
+    display: none;
+  }
+  
+  #accelerate.sh-section-2-1 .sh-section-subtitle {
+    font-size: 28px!important;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 40px 16% 0!important;
+  }
+
+  #get-started.sh-section-4-1 .sh-section-title {
+    font-size: 56px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 17% auto 0!important;
+  }
+
 }
 
 #brand.sh-section-1 .sh-section-title-group .sh-page-subtitle {
@@ -418,16 +514,16 @@ a.sh-telephone-message-button {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    margin-bottom: 5.8vh;
+    margin-bottom: 0.8vh;
     margin-right: 9.5vw;
     margin-left: auto;
   }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .news-paper-icon {
     display: block;
     position: absolute;
-    right: -0.5%;
-    top: -4%;
-    height: 22%;
+    right: 1.5%;
+    top: -2%;
+    height: 21%;
   }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .sh-sales-hub-icon {
     position: absolute;
@@ -461,14 +557,14 @@ a.sh-telephone-message-button {
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .sh-blue-paper {
     left: unset;
     height: 12.5%;
-    right: 9.5%;
-    top: 27%;
+    right: 13.5%;
+    top: 22%;
   }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .sh-blue-circle {
     left: unset;
-    height: 27.5%;
-    right: -7.5%;
-    top: 23.5%;
+    height:  33.5%;
+    right: -8%;
+    top: 17.5%;
   }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .sh-dashboard-icon {
     display: block;
@@ -476,7 +572,7 @@ a.sh-telephone-message-button {
     width: 950.43px;
     /* max-height: 500px; */
     max-height: 704px;
-    max-width: 832px;
+    max-width: 747px;
   }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .sh-search-bar {
     position: absolute;
@@ -485,8 +581,8 @@ a.sh-telephone-message-button {
     width: 21vw;
     max-height: 500px;
     max-width: 528px;
-    top: 175px;
-    right: 279px;
+    top: 27%;
+    right: 29%;
   }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group .sh-chart-icon {
     position: absolute;
@@ -522,11 +618,11 @@ a.sh-telephone-message-button {
     left: -28px;
   }
   #brand.sh-section-1 .sh-group-1 .sh-icon-group-container .sh-main-icon-group > .sh-circle {
-    bottom: -43%;
+    bottom: -31%;
     height: unset;
     max-width: 260px;
     position: absolute;
-    left: -84%;
+    left: -95%;
     width: 13.5vw;
     z-index: -1;
   }
@@ -534,6 +630,12 @@ a.sh-telephone-message-button {
     content: "";
     display: block;
     padding-bottom: 100%;
+  }
+  .pink-circle.sh-hide-on-mobile img {
+    position: absolute;
+    bottom: -16%;
+    left: -96%;
+    height: 32%;
   }
   #brand.sh-section-1 .sh-watch-demo-container {
     padding-right: 9.3vw;
@@ -547,6 +649,9 @@ a.sh-telephone-message-button {
     line-height: 30px;
     padding: 13px 43px 17px;
   }
+
+  
+  
 }
 
 @media (min-width: 992px) and (max-width: 1195px) {
@@ -563,20 +668,18 @@ a.sh-telephone-message-button {
 }
 
 #accelerate.sh-section-2 {
-  /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
   background-color: #FFFFFF;
-  padding: 9.6rem 12.2rem;
+  padding: 9.6rem 5.2rem;
   position: relative;
 }
 #accelerate.sh-section-2-1 {
-  /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
   background-color: #020C30;
-  padding: 9.6rem 6.2rem;
+  padding: 5.6rem 3.2rem;
   position: relative;
   height: 550px;
 }
 
-#accelerate.sh-section-2-1 img{
+#accelerate.sh-section-2-1 #orange-circle{
   position: absolute;
   right: -6%;
   bottom: -19%;
@@ -629,7 +732,7 @@ a.sh-telephone-message-button {
   background: linear-gradient(45deg, #F4A325 10%, #E96100 100%);
   padding: 12.6rem 6.2rem;
   position: relative;
-  height: 550px;
+  height: 100vh;
 }
 
 #get-started.sh-section-4-1 .sh-section-title {
@@ -684,12 +787,6 @@ a.sh-telephone-message-button {
   z-index: 1;
 }
 
-#accelerate.sh-section-2 {
-  /* background: linear-gradient(89.25deg, #f4a3ae 0.11%, #e97179 99.35%); */
-  background-color: #FFFFFF;
-  padding: 9.6rem 14.2rem;
-  position: relative;
-}
 
 #accelerate.sh-section-2 .sh-section-title {
   color: black;
@@ -1080,6 +1177,7 @@ a.sh-telephone-message-button {
   #simplify.sh-section-3 .sh-sub-section.sh-simplify-operations-section .sh-information-panel {
     /* margin: auto 11vw auto 0; */
     margin: 0 35px 40px;
+    text-align: center;
   }
   #simplify.sh-section-3 .sh-sub-section.sh-simplify-operations-section .sh-image-panel {
     display: block;
@@ -1369,7 +1467,7 @@ a.sh-telephone-message-button {
 }
 
 #show-room .show-room-body {
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   background-color: #f4a3ae;
   /* padding: 4vh 6.3vw 11.37vh 9.21vw; */
 }
@@ -1390,31 +1488,32 @@ a.sh-telephone-message-button {
 
 #show-room .show-room-body .show-room-section .show-room-section-image-container .show-room-image {
   display: block;
-  height: auto;
+  height: 339px;
   width: 100%;
 }
+
 #show-room .show-room-body .show-room-section .show-room-section-image-container .white-frames {
-  position: relative;
+  position: absolute;
   display: block;
-  height: auto;
-  bottom: 356px;
-  left: 23%;
+  /* height: auto; */
+  top: 50%;
+  left: 21%;
 }
 
 #show-room .show-room-body .show-room-section .show-room-section-image-container .click-here {
-  position: relative;
+  position: absolute;
   display: block;
   height: auto;
-  bottom: 327px;
-  left: 33%;
+  bottom: 30%;
+  left: 24%;
 }
 
 #show-room .show-room-body .show-room-section .show-room-section-image-container .cursor-pointer {
-  position: relative;
+  position: absolute;
   display: block;
   height: auto;
-  bottom: 347px;
-  left: 64%;
+  bottom: 21%;
+  left: 36%;
 }
 
 
@@ -1425,6 +1524,7 @@ a.sh-telephone-message-button {
   margin: auto;
   text-align: center;
   width: 100%;
+  margin-top: 19%;
 }
 
 #show-room .show-room-body .show-room-section .show-room-section-text-container .show-room-section-title {
@@ -2056,7 +2156,7 @@ a.sh-telephone-message-button {
     background-color: #F4A325;
   }
   #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .sh-login-button:focus, #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .sh-login-button:hover, #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.manager-price .sh-login-button.active {
-    background-color: #1956c3;
+    background-color: #ad7519;
   }
   #pricing.sh-section-4 .sh-sub-section.sh-plans-that-scale-section .sh-price-box-desktop-container .sh-price-card.enterprise-price .sh-price-card-head {
     background-color: #18183b;
@@ -2653,7 +2753,7 @@ a.sh-telephone-message-button {
 
 #contact-modal .sh-contact-container .sh-contact-form .sh-form-group label {
   display: block;
-  font-family: "Roboto";
+  font-family: "Inter";
   font-weight: 700;
   font-size: 20px;
   text-align: left;
@@ -2695,7 +2795,7 @@ a.sh-telephone-message-button {
   border-color: #f4a3ae;
   cursor: pointer;
   display: block;
-  font-family: "Roboto";
+  font-family: "Inter";
   font-size: 20px;
   margin: 20px 0 0;
   width: 100%;
@@ -2730,7 +2830,7 @@ a.sh-telephone-message-button {
   }
   #contact-modal .sh-contact-container .sh-contact-form .sh-form-group label {
     display: block;
-    font-family: "Roboto";
+    font-family: "Inter";
     font-weight: 700;
     font-size: 1.5rem;
     text-align: left;
@@ -2746,7 +2846,7 @@ a.sh-telephone-message-button {
     border-color: #f4a3ae;
     cursor: pointer;
     display: block;
-    font-family: "Roboto";
+    font-family: "Inter";
     font-size: 1.5rem;
     padding: 0.75rem;
     margin: 0;

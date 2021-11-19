@@ -48,7 +48,10 @@
 						<img class="sh-chart-icon sh-hide-on-mobile" src="icons/chart-icon.svg" alt="Dashboard Screen" />
 						<img class="chat-icon sh-hide-on-mobile" src="icons/chat-icon.svg" alt="Dashboard Screen" />
 						<img class="women-icon sh-hide-on-mobile" src="icons/women.svg" alt="Dashboard Screen" />
-						<div class="sh-circle sh-light-red-circle sh-hide-on-mobile"></div>
+						<!-- <div class="sh-circle sh-light-red-circle sh-hide-on-mobile"> -->
+						<div class="pink-circle sh-hide-on-mobile">
+							<img src="icons/pink-circle.svg" alt="Pink Circle">
+						</div>
 					</figure>
 				</div>
 
@@ -59,10 +62,11 @@
 						<p>Enterprice URL Shortener</p>
 						<p class="title">Boost and control your links.</p>
 						<p class="sub-p">Manage, brand and track your links the smart way.</p>
+						<a href="#" class="sh-button sh-login-button sh-show-contact-form sh-hide-on-desktop">
+							Schedule a Demo
+						</a>
 					</h1>
-
-					
-				</div>
+				</div>				
 			</div>
 
 			<!-- <figure class="sh-side-decoration">
@@ -116,7 +120,7 @@
 							<img class="click-here" src="icons/click-here.svg" alt="Dashboard" />
 							<img class="cursor-pointer" src="icons/cursor.svg" alt="Dashboard" />
 						</div>
-						<div class="show-room-section-text-container" style="margin-top: 19%;">
+						<div class="show-room-section-text-container" >
 							<h3 class="show-room-section-title" style="color: #D62D39; font-size: 42px;">Real-Time Click Tracking</h3>
 							<p class="show-room-section-description">
 								Track and analyze your link clicks. Identify and understand your audience with detailed insights.
@@ -156,7 +160,8 @@
 				<img src="icons/pink-circle.svg" alt="">
 				<img src="icons/blue-circle.svg" alt="">
 			</div>
-			<img src="icons/orange-circle.svg" alt="">
+			<img id="orange-circle" src="icons/orange-circle.svg" alt="">
+			
 		</section>	
 		
 		<section id="accelerate" class="sh-section-2-2">
